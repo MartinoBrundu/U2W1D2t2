@@ -63,6 +63,24 @@ header {
     margin-bottom: 0;
   }
 }
+#lastButton {
+  position: fixed;
+  right: 0%;
+  bottom: 10%;
+
+}
+.lastDivAncor1 {
+  position: fixed;
+  right: 0%;
+  bottom: 20%;
+  display: block;
+}
+.lastDivAncor2 {
+  position: fixed;
+  right: 0%;
+  bottom: 25%;
+  display: block;
+}
 
 header nav ul {
   margin: 0;

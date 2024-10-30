@@ -33,6 +33,36 @@ header {
   header {
     padding: 1em;
   }
+
+  .lastDivAncor1 {
+
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    top: 20%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .lastDivAncor2 {
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    top: 25%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -62,24 +92,53 @@ header {
   header .brand p {
     margin-bottom: 0;
   }
-}
-#lastButton {
-  position: fixed;
-  right: 0%;
-  bottom: 10%;
+  #lastButton {
+    position: fixed;
+    right: 0%;
+    bottom: 10%;
+    
+  }
+  .lastDivAncor1 {
 
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    bottom: 20%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .lastDivAncor2 {
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    bottom: 25%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px
+  }
+
+   #firstSpan {
+    z-index: 100;
+  }
+  
+#baffo {
+  position: absolute;
+  bottom: 66%;
+  left: 43%;
+  opacity: 0.4;
+  width: 35%;
+  z-index: 0;
 }
-.lastDivAncor1 {
-  position: fixed;
-  right: 0%;
-  bottom: 20%;
-  display: block;
-}
-.lastDivAncor2 {
-  position: fixed;
-  right: 0%;
-  bottom: 25%;
-  display: block;
 }
 
 header nav ul {
@@ -115,6 +174,35 @@ main {
   main {
     padding: 2em;
   }
+  .lastDivAncor1 {
+
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    top: 20%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .lastDivAncor2 {
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    top: 25%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
 }
 
 section {
@@ -142,17 +230,9 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
-  z-index: 99;
+  
 }
 
-#baffo {
-  position: absolute;
-  bottom: 66%;
-  left: 43%;
-  opacity: 0.4;
-  width: 35%;
-  z-index: 0;
-}
 
 p,
 address,
@@ -201,6 +281,35 @@ h1 + p {
   h1 {
     font-size: 3.6rem;
   }
+  .lastDivAncor1 {
+
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    top: 20%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .lastDivAncor2 {
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    top: 25%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -209,6 +318,35 @@ h1 + p {
   }
   section {
     border-radius: 20px;
+  }
+  .lastDivAncor1 {
+
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    top: 20%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .lastDivAncor2 {
+    border: solid 2px white;
+    padding: 2px;
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    top: 25%;
+    display: block;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    
   }
 }
 #lastSec {
